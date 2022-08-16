@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XPSFfFx0src3jB7KFn3b4FZzEqHLd3zSF/Da9cgmj7q8jZYkq5FV+cPczESXrGLuIdeWX55aJWz+gRZHtAsIew==",
+  "dgSpecHash": "pcDi1nBCcY9wV702RD+H5J61UDs32gtq5Nx+LDem6aZF0yHM10cAPvRcp6dLdmFtqSxrDwIX8bLZq6a6noZHng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Georgi\\Desktop\\bank\\bank.csproj",
+  "projectFilePath": "C:\\Users\\Georgi\\Desktop\\bank\\Bank\\bank\\bank.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
