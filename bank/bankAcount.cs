@@ -60,12 +60,11 @@ namespace bank
         }
         public string getAcountHistory()
         {
-            var history = new StringBuilder();
-             history.AppendLine("Date\t\tNote\t\tAmount\n");
+            StringBuilder history = new StringBuilder();
             foreach (var item in transactions)
             {
-              
-                history.AppendLine($"{item.Date.ToShortDateString()}\t{item.Notes}\t{item.Amount}\n");
+                history.AppendLine($"Transaction of amount {item.Amount} that happened on the {item.Date.ToShortDateString()} and it had a note: {item.Notes}");
+
             }
             return history.ToString();
         }
